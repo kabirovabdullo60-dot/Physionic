@@ -2,3 +2,133 @@
     margin: 0;
     font-family: sans-serif;
 }
+.hero_image{
+
+}
+.img_witdh{
+    width: 100%;
+    margin: auto;
+}
+.header{
+    width: 70%;
+    margin: auto;
+    margin-top: -800px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+.paragraef_header{
+    display: flex;
+    font-size: 15px;
+    color: white;
+    gap: 20px;
+}
+.btn_header{
+    background-color: #23A6F0;
+    width: 145px;
+    padding: 11px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn_header:hover{
+    background-color: white;
+    color: #23A6F0;
+    transition: 0.2s;
+}
+.section1{
+  width: 70%;
+  margin: auto;
+      align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 300px;
+  margin-top: 200px;
+
+
+}
+.the_boss p{
+   font-size: 18px;
+   color: white;
+   margin-top: 35px;
+   color: white;
+   width: 300px;
+}
+
+.section1_text{
+       font-size: 55px;
+       color: white;
+       width: 450px;
+}
+.section1_btn{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.appointment-box{
+    width: 200px;
+    background:#fff;
+    border-radius:8px;
+    padding:36px 38px 30px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -400px;
+}
+.appointment-box h2{
+    text-align:center;
+    font-size:22px;
+    font-weight:700;
+    color:#252a45;
+    margin-bottom:38px;
+}
+
+.form-group{
+    margin-bottom:16px;
+}
+
+.form-group label{
+    display:block;
+    font-size:14px;
+    font-weight:600;
+    color:#2c314d;
+    margin-bottom:10px;
+}
+
+.form-control{
+    width:95%;
+    height:46px;
+    border:1px solid #dddddd;
+    border-radius:4px;
+    font-size:14px;
+    color:#666;
+    outline:none;
+    background:#fff;
+}
+
+.form-control::placeholder{
+    color:#9a9a9a;
+}
+.select-wrapper::after{
+    position:absolute;
+    right:16px;
+    top:50%;
+    transform:translateY(-55%);
+    font-size:24px;
+    color:#777;
+}
+
+.submit-btn{
+    width:200px;
+    height:52px;
+    margin-top:22px;
+    border:none;
+    border-radius:5px;
+    background:#2fa0e6;
+    color:#fff;
+    font-size:20px;
+    font-weight:600;
+}
+
+.submit-btn:hover{
+    background:#2493d8;
+}
