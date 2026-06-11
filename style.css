@@ -215,3 +215,126 @@
      justify-content: space-between;
      margin-top: 50px;
 }
+.search{
+    display: none;
+}
+.karzina{
+    display: none;
+}
+.menu{
+    display: none;
+}
+.women{
+    display: none;
+}
+.imagesphone{
+    display: flex; align-items: center; gap: 110px;
+}
+.p2{
+  width: 450px; margin: auto; font-size: 13px; color: gray; margin-top: 15px;  
+}
+.hh2p2{
+   text-align: center; margin-top: 350px;
+}
+.sec3pp{
+ width: 450px; margin: auto; font-size: 13px; color: gray; margin-top: 15px; text-align: center;   
+}
+.sec5text{
+    width: 450px; margin: auto; font-size: 13px; color: gray; margin-top: 15px; text-align: center;
+}
+@media (max-width:510px) {
+    .img_witdh{
+        display: none;
+    }
+    .women{
+        display: block;
+        width: 100%;
+    }
+    .paragraef_header{
+        display: none;
+    }
+    .btn_header{
+        display: none;
+    }
+    .header{
+        width: 95%;
+        margin-top: px;
+    }
+    .search{
+        display: block;
+
+    }
+    .karzina{
+        display: block;
+        
+    }
+    .menu{
+        display: block;
+    }
+    .imagesphone{
+        gap: 10px;
+    }
+    .section1{
+        flex-direction: column;
+    }
+    .the_boss h1
+    {
+      font-size: 40px;
+      width: 350px;
+      text-align: center;
+    }
+    .pppp{
+        text-align: center;
+        margin-top: -50px;
+    }
+    .section1_btn{
+        flex-direction: column;
+        margin-left: 100px;
+
+    }
+    .appointment-box{
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+   .hh2p2{
+    display: none;
+   }
+    .section2{
+        flex-direction: column;
+       margin-top: 650px;
+       margin-left: 40px;
+       row-gap: 50px;
+    }
+    .section3_text p{
+        width: 250px;
+    }
+    .section3{
+        flex-direction: column;
+    }
+    .section4_text p{
+       width: 250px;
+    }
+    .section5_text p{
+        width: 250px;
+    }
+    .section5{
+        flex-direction: column;
+        margin-left: 70px;
+        row-gap: 20px;
+    }
+    .image2{
+        margin-left: -20px;
+    }
+    .inputs{
+        flex-direction: column;
+        width: 100%;
+        height: 400px;
+    }
+    .obwiyinputs{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .endsection{
+        flex-direction: column;
+    }
+}
