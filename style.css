@@ -132,3 +132,20 @@
 .submit-btn:hover{
     background:#2493d8;
 }
+.section2{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.container{
+  display: flex; 
+  align-items:center;
+  gap: 5px;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+    background-color: #D9EDFF;
+     width: 270px;
+     padding: 20px;
+}
